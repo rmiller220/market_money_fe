@@ -67,3 +67,8 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 end
+
+# You can also configure VCR to allow playback repeats innately in rails helper: 
+# VCR.configure do |config|
+#   config.default_cassette_options = { allow_playback_repeats: true }
+# end

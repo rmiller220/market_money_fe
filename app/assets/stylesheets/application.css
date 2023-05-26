@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ .m_table{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
